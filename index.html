@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AptMart — Fresh Groceries Delivered</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <svg width="36" height="36" viewBox="0 0 24 24" class="me-2" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="4" width="20" height="14" rx="2" fill="#2b7a78"></rect>
+        <path d="M6 12h6" stroke="#fff" stroke-width="1.5" stroke-linecap="round"></path>
+      </svg>
+      <span class="fw-bold">AptMart</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="d-flex ms-3">
+        <a class="btn btn-outline-success me-2" href="#">Sign In</a>
+        <a class="btn btn-success" href="#">Register</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<header class="hero" style="background-image:url('assets/images/apartment-hero.jpg'); background-size:cover; background-position:center;">
+  <div class="hero-overlay">
+    <div class="container text-start text-white">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <h1 class="display-5 fw-bold">Fresh Groceries Delivered to Your Apartment Door</h1>
+          <p class="lead">Daily essentials, express deliveries and community bulk orders — built for apartment living across India.</p>
+          <form id="locForm" class="hero-cta d-flex gap-2" style="max-width:640px;">
+            <input id="locationInput" class="form-control" type="search" placeholder="Enter your apartment complex or area (e.g., 'Powai, Mumbai')">
+            <button class="btn btn-success">Order Now</button>
+          </form>
+          <p class="mt-2 small">Available in multiple cities — find out if we deliver to your apartment.</p>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block">
+          <img src="assets/images/fruits.jpg" class="img-fluid rounded shadow" alt="Fresh groceries">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="py-5">
+  <div class="container">
+    <div class="row text-center mb-4">
+      <div class="col-md-3">
+        <div class="mb-2 feature-icon">⏱️</div>
+        <h5>Fast Delivery</h5>
+        <p class="text-muted">30-minute guarantee (selected areas)</p>
+      </div>
+      <div class="col-md-3">
+        <div class="mb-2 feature-icon">🥬</div>
+        <h5>Fresh Quality</h5>
+        <p class="text-muted">Sourced daily from local suppliers</p>
+      </div>
+      <div class="col-md-3">
+        <div class="mb-2 feature-icon">🛒</div>
+        <h5>Wide Selection</h5>
+        <p class="text-muted">Thousands of products</p>
+      </div>
+      <div class="col-md-3">
+        <div class="mb-2 feature-icon">🏢</div>
+        <h5>Apartment Friendly</h5>
+        <p class="text-muted">Tailored for building access and concierge</p>
+      </div>
+    </div>
+
+    <h3 class="mb-3">How It Works</h3>
+    <div class="row text-center mb-5">
+      <div class="col-md-4">
+        <img src="assets/images/testimonial1.jpg" class="mb-3" style="height:120px; object-fit:cover;" alt="Browse">
+        <h5>Browse & Select</h5>
+        <p class="text-muted">Choose items from curated categories and apartment-friendly bundles.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="assets/images/testimonial2.jpg" class="mb-3" style="height:120px; object-fit:cover;" alt="Schedule">
+        <h5>Schedule Delivery</h5>
+        <p class="text-muted">Pick an immediate slot or schedule for a time that suits your building's rules.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="assets/images/dairy.jpg" class="mb-3" style="height:120px; object-fit:cover;" alt="Receive">
+        <h5>Receive at Your Door</h5>
+        <p class="text-muted">Handoff options that work with your apartment security and concierge.</p>
+      </div>
+    </div>
+
+    <h3 class="mb-3">Featured Categories</h3>
+    <div class="row g-3">
+      <div class="col-sm-6 col-md-3">
+        <div class="card">
+          <img src="assets/images/vegetables.jpg" class="card-img-top" alt="Fruits & Vegetables">
+          <div class="card-body"><h6 class="card-title">Fruits & Vegetables</h6></div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card">
+          <img src="assets/images/eggs.jpg" class="card-img-top" alt="Dairy & Eggs">
+          <div class="card-body"><h6 class="card-title">Dairy & Eggs</h6></div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card">
+          <img src="assets/images/pantry.jpg" class="card-img-top" alt="Pantry">
+          <div class="card-body"><h6 class="card-title">Pantry Essentials</h6></div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card">
+          <img src="assets/images/snacks.jpg" class="card-img-top" alt="Snacks">
+          <div class="card-body"><h6 class="card-title">Snacks</h6></div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="mt-5 mb-3">Testimonials</h3>
+    <div id="testiCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex gap-3 align-items-center">
+            <img class="rounded" src="assets/images/testimonial1.jpg" style="width:120px;height:90px;object-fit:cover" alt="Priya">
+            <div>
+              <blockquote class="mb-0">"Delivery right to my doorstep and they coordinated with building security — super convenient!"</blockquote>
+              <footer class="blockquote-footer">Priya, Pune</footer>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex gap-3 align-items-center">
+            <img class="rounded" src="assets/images/testimonial2.jpg" style="width:120px;height:90px;object-fit:cover" alt="Rohit">
+            <div>
+              <blockquote class="mb-0">"Fresh fruits every morning and the express option saved me trips to the market."</blockquote>
+              <footer class="blockquote-footer">Rohit, Gurgaon</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testiCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testiCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+  </div>
+</main>
+
+
+<footer class="mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>AptMart</h5>
+        <p>Revolutionizing grocery delivery for apartment dwellers across India.</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Contact</h5>
+        <p>Email: support@aptmart.example<br>Phone: +91 90000 00000</p>
+      </div>
+    </div>
+    <div class="text-center mt-3">© 2025 AptMart</div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

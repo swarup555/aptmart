@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — AptMart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <svg width="36" height="36" viewBox="0 0 24 24" class="me-2" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="4" width="20" height="14" rx="2" fill="#2b7a78"></rect>
+        <path d="M6 12h6" stroke="#fff" stroke-width="1.5" stroke-linecap="round"></path>
+      </svg>
+      <span class="fw-bold">AptMart</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="d-flex ms-3">
+        <a class="btn btn-outline-success me-2" href="#">Sign In</a>
+        <a class="btn btn-success" href="#">Register</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h1>We're Here to Help</h1>
+        <p class="lead">Questions about delivery, partnerships, or service coverage? Reach out — we're ready.</p>
+
+        <form id="contactForm" class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label">Name</label>
+            <input class="form-control" required>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" required>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Phone</label>
+            <input class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">City/Area</label>
+            <input class="form-control">
+          </div>
+          <div class="col-12">
+            <label class="form-label">Apartment Complex</label>
+            <input class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Inquiry Type</label>
+            <select class="form-select"><option>General</option><option>Delivery Issue</option><option>New Area Request</option><option>Partnership</option></select>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Subject</label>
+            <input class="form-control">
+          </div>
+          <div class="col-12">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" rows="5"></textarea>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-success">Send Message</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-md-4">
+        <h5>Contact Methods</h5>
+        <p><strong>Customer Service:</strong> support@aptmart.example</p>
+        <p><strong>Partnerships:</strong> partners@aptmart.example</p>
+        <h5>Phone (regional)</h5>
+        <ul class="list-unstyled">
+          <li>Mumbai: +91 22 4000 1000</li>
+          <li>Bengaluru: +91 80 4000 2000</li>
+          <li>Delhi NCR: +91 11 4000 3000</li>
+        </ul>
+
+        <h5>Service Areas</h5>
+        <img src="assets/images/india-map.jpg" class="img-fluid rounded mb-2" alt="Service Areas">
+        <p>If your apartment isn't listed, use the form to request service in your area.</p>
+      </div>
+    </div>
+
+    <h3 class="mt-4">FAQ</h3>
+    <div class="accordion" id="faq">
+      <div class="accordion-item">
+        <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c1">Do you deliver to gated communities?</button></h2>
+        <div id="c1" class="accordion-collapse collapse show" data-bs-parent="#faq"><div class="accordion-body">Yes — we coordinate with security and concierge teams for secure handoffs.</div></div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c2">What payment methods?</button></h2>
+        <div id="c2" class="accordion-collapse collapse" data-bs-parent="#faq"><div class="accordion-body">Cards, UPI, Netbanking and wallets are accepted.</div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<footer class="mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>AptMart</h5>
+        <p>Revolutionizing grocery delivery for apartment dwellers across India.</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Contact</h5>
+        <p>Email: support@aptmart.example<br>Phone: +91 90000 00000</p>
+      </div>
+    </div>
+    <div class="text-center mt-3">© 2025 AptMart</div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
